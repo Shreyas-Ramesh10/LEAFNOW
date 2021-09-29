@@ -1,0 +1,42 @@
+h1{
+  color:white;
+
+  position: relative;
+
+
+
+}
+p{
+  width:600px;
+  font-family:'Roboto Slab', serif;
+  line-height: 2;
+
+
+}
+.info{
+border-radius: 50px;
+width:600px;
+background-color:rgba(99, 180, 184,0.5);
+text-align: center;
+
+margin-top:50px;
+margin-left: 100px;
+align: center;
+
+}
+body{
+
+  background-image:url(LoginBGI.jpg);
+}
+.tree{
+  width:700px;
+  position: absolute;
+  top:100px;
+  right:-10px;
+}
+#footer {
+  background-color:rgb(87, 204, 153,0.6);
+  padding: 400px;
+  text-align: center;
+  padding-top: 60px;
+}

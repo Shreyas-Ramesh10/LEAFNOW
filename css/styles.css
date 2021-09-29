@@ -1,0 +1,183 @@
+#title {
+  background-image: url('images/LoginBGI.png');
+  color: white;
+}
+
+#features {
+  background-color: rgb(87, 204, 153,0.6);
+  padding: 7% 6%;
+  position: relative;
+  z-index: 2;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 70px;
+  font-weight: 700;
+}
+
+h2 {
+  color: white;
+  font-family: "Montserrat", serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+h3 {
+  color: white;
+  font-weight: bold;
+  line-height: 1.5;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  color: white;
+}
+
+em {
+  color: white;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.navbar {
+  background-color: rgba(255,0,0,0);
+  padding: 2.5rem auto 2.5rem;
+  text-decoration: none;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.downn {
+  position: relative;
+  top: 8px;
+}
+
+.col2 {
+  position: relative;
+  left: 100px;
+}
+
+.tit-image {
+  position: absolute;
+
+  width: 220%;
+  z-index: 1;
+  top: -60px;
+  right:-110%;
+}
+
+.button {
+  margin: 5% 3% 5% 0;
+}
+
+.roww {
+  text-align: center;
+  padding: 2%;
+}
+
+.fas {
+  color:rgb(213, 238, 187);
+  margin-bottom: 20px;
+}
+
+.fas:hover {
+  color: rgb(124, 131, 253);
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', serif;
+  margin-left: 10px;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+body {
+  background:url(LoginBGI.jpg);
+  font-family: 'Montserrat', sans-serif;
+}
+
+#testimonials {
+  padding: 7% 6%;
+  background-color: rgba(87, 204, 153,0);
+  text-align: center;
+}
+
+.testimonial-image {
+  width: 15%;
+  border-radius: 20%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 10%;
+}
+
+#press {
+  background-color: rgb(87, 204, 153,0);
+  text-align: center;
+}
+
+.press-image {
+  width: 10%;
+  margin: 5%;
+}
+
+#pricing {
+  background-color: rgb(87, 204, 153,0.6);
+}
+
+.card {
+  color:black;
+  background-color: rgba(87, 204, 153,0.8);
+}
+
+#pricing {
+  padding: 7% 6%;
+  text-align: center;
+}
+
+.roww2 {
+  padding: 5% 5%;
+}
+
+#cta {
+  background-color: rgb(87, 204, 153,0);
+  text-align: center;
+  padding: 100px;
+  position: relative;
+  border: solid;
+}
+
+#footer {
+  background-color:rgb(87, 204, 153,0.6);
+  padding: 50px;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.linkz {
+  width: 50px;
+}
+
+.linkz:hover {
+  color: white;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .tit-image {
+    position: static;
+    width: 50%;
+    margin-right: 190px;
+
+  }
+}

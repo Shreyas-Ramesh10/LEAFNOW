@@ -8,12 +8,23 @@ body{
 .login-box{
   max-width:700px;
   float:none;
-  margin:150px auto;
+  margin:220px auto;
+}
+
+.login_txt{
+  position: relative;
+  top:100px;
+  color:white;
+  margin-left: 470px;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 150px;
+  font-weight: 700;
 }
 
 .login-left{
-  position: relative;
-  bottom:100px;
+
+
   border-radius: 10px;
   margin-left: 150px;
   align-items: center;

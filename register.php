@@ -23,7 +23,9 @@
   </nav>
 
 
-
+  <div class = "login_txt">
+    <h1>Login to LEAF NOW</h1>
+  </div>
 
   <div class = "container">
     <div class = "login-box">
@@ -33,7 +35,7 @@
 
 
   <div class = "col-md-6 login-right">
-    <h2 >Register Here</h1>
+    <h2 >Register Here</h1><br>
       <form action = "registration.php" method="post">
         <div class = "form-group">
           <label >Username</label>
@@ -41,9 +43,9 @@
         </div>
         <div class = "form-group">
           <label >Password</label>
-          <input type ="password" name ="password" class="form-control" required >
+          <input type ="password" name ="password" class="form-control" required ><br>
         </div>
-        <button type = "submit" class = "btn btn-primary">Register here</button>
+        <button type = "submit" class = "btn btn-primary">Register here</button><br>
         <a style = "color:black" href="login.php"> Go back to Login Screen</a>
       </form>
       </div>
